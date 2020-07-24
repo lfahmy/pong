@@ -80,7 +80,7 @@ function drawRectangle(shape, { x, y, w, h }, ratio) {
   shape.graphics.setStrokeStyle(3*ratio);
   shape.snapToPixel = true;
   shape.graphics.drawRect(x, y, w, h);
-  shape.shadow = new Shadow("white", 0, 0, 10);
+  //shape.shadow = new Shadow("white", 0, 0, 10);
   shape.snapToPixel = true;
 
   shape.cache(x - 5, y - 5, w + 10, h + 10);
@@ -96,7 +96,7 @@ function drawCorner(shape, { mtx, mty, ltx, lty }, ratio) {
   shape.snapToPixel = true;
   shape.graphics.moveTo(mtx, mty);
   shape.graphics.lineTo(ltx, lty);
-  shape.shadow = new Shadow("white", 0, 0, 10);
+  //shape.shadow = new Shadow("white", 0, 0, 10);
   shape.snapToPixel = true;
 
   const x = (mtx < ltx) ? mtx : ltx;
