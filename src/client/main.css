@@ -1,0 +1,166 @@
+body {
+  /*background-image: url('http://res.cloudinary.com/dqr2mejhc/image/upload/c_scale,w_612/v1497818771/canvas_back_qu92rm.png');
+  background-repeat: repeat;
+  background-color: black;*/
+  background-image: radial-gradient(circle, rgba(18,8,36,1.77) 0%, rgba(62,25,120,1.82) 100%);
+}
+
+h2 {
+  -webkit-text-stroke: 3px black;
+  font-family: 'Orbitron', cursive;
+  font-size: 50px;
+  padding: 5px;
+  margin: 0;
+  color: ghostwhite;
+}
+
+#myCanvas {
+  /*background-image: url('https://ak.picdn.net/shutterstock/videos/12686249/thumb/1.jpg');
+  background: rgb(219,215,226);
+  background-image: radial-gradient(circle, rgba(18,8,36,1.77) 0%, rgba(62,25,120,1.82) 100%);*/
+  
+  /*background-image: url('http://res.cloudinary.com/dqr2mejhc/image/upload/c_scale,w_626/v1497818772/space_back_2_keyyer.png');
+  display: block;
+  background-repeat: repeat;
+  border-radius: 30px;
+  border: 8px solid black;
+  width: 98%;
+  height: 98%;
+  min-width: 400px;
+  min-height: 300px;*/
+  width: 100%;
+  height: 100%;
+
+  -webkit-transform3d: translate(0,0,0);
+  -moz-transform3d: translate(0,0,0);
+  transform3d: translate(0,0,0);
+}
+
+#menu {
+  display: block; 
+  position: absolute; 
+  margin: 0 auto; 
+  top: 50%;
+}
+
+#textInput {
+  width: 256.32px; 
+  height: 33px; 
+  line-height: 29.7px; 
+  font-size: 29.7px; 
+  padding-left: 5px; 
+  padding-right: 5px;
+  background-color: transparent;
+  border: 3px solid white;
+  font-family: 'Ubuntu';
+  padding: 0;
+  outline: none;
+}
+
+input {
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: white;/*-internal-light-dark-color(black, white);*/
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  -webkit-appearance: textfield;
+  background-color: -internal-light-dark-color(rgb(255, 255, 255), rgb(59, 59, 59));
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  padding: 1px 2px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: -internal-light-dark-color(rgb(118, 118, 118), rgb(195, 195, 195));
+  border-image: initial;
+}
+
+#playButton {
+  display: block;
+  margin: 0 auto;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: .7; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+  opacity: .7;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+  opacity: .7;
+}
+
+/*.game {
+  width: 55%;
+  min-width: 400px;
+  min-height: 300px;
+  margin: 15px;
+  margin-right: 25px;
+}*/
+
+.instructions {
+  background-color: black;
+  color: ghostwhite;
+  padding: 15px 25px 15px 25px;
+  width: 20%;
+  height: 100%;
+  min-width: 250px;
+  margin-top: 15px;
+  font-family: 'Coda';
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding-left: 10px;
+}
+
+.buttons img {
+  width: 50px;
+  padding: 15px 15px 0px 15px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  margin: 0;
+  line-height: 1.1;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.textblock {
+  border-bottom: 3px solid white;
+  padding-bottom: 15px;
+}
+
+#everything {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*// $teal: #1B998B;
+// $pink: #ED217C;
+// $navy: #2D3047;
+// $yellow: #FFFD82;
+// $peach: #FF9B71;*/
